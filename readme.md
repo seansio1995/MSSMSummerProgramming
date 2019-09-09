@@ -10,6 +10,7 @@ information of a local coffee shop such as address, contact & business hours.At 
 this app is a single screen app without additional interactive functionalities.
 
 <img src="screenshot.jpeg" alt="drawing" width="300"/>
+<img src="androidgooglemap.jpeg" alt="drawing" width="300"/>
 
 ## Installation
 
