@@ -8,10 +8,10 @@
 This app is a simple summer project for course 49786 which displays some basic
 information of a local coffee shop such as address, contact & business hours.At current stage,
 this app is a single screen app without additional interactive functionalities.
-
-<img src="screenshot.jpeg" alt="drawing" width="300"/>
-<img src="androidgooglemap.jpeg" alt="drawing" width="300"/>
-
+<p float="left">
+    <img src="screenshot.jpeg" alt="drawing" width="300"/>
+    <img src="androidgooglemap.jpeg" alt="drawing" width="300"/>
+</p>
 ## Installation
 
 OS X & Linux:
