@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:fillViewport="true"
      >
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -10,7 +11,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#212121"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
     >
 
     <ImageView
@@ -123,7 +125,7 @@
     <TextView
         android:id="@+id/hour"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:paddingBottom="0dp"
         android:paddingTop="14dp"
         android:text="Hours: M-F 10 am - 8 pm"
@@ -132,6 +134,16 @@
         android:layout_below="@id/address"
         android:layout_marginLeft="28dp"
         />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/hour"
+        tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+
 
 
 </RelativeLayout>
